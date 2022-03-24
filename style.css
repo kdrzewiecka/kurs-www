@@ -4,9 +4,27 @@ selector{
 }
 */
 body{
-    background-color: antiquewhite;
+    background-color: rgb(122, 96, 77)
 }
 
 header{
     border: 2px dashed rgb(4, 0, 255)
+}
+/* header */
+body > header{
+    background-color: rgba(185, 61, 61, 0.793);
+    border: 15xp solid rgba(185, 61, 61, 0.793);
+    text-align: center;
+
+}
+
+/* GłÓWNA NAWIGACJA */
+nav ul {
+    border:15xp red;
+    border-top: none;
+    /* punktowanie list */
+    list-style: type:none;
+    padding:0;
+    margin:0;
+    /* DIS FLEX */
 }
