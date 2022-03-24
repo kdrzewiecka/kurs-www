@@ -1,0 +1,12 @@
+/*
+selector{
+    właściwość : wartość
+}
+*/
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    border: 2px dashed rgb(4, 0, 255)
+}
