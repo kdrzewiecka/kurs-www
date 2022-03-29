@@ -3,28 +3,40 @@ selector{
     właściwość : wartość
 }
 */
-body{
-    background-color: rgb(122, 96, 77)
+
+*{
+    box-sizing: border-box;
 }
 
-header{
-    border: 2px dashed rgb(4, 0, 255)
+body{
+    background-color: rgb(122, 96, 77)
+    margin:rgb(4, 0, 255)
+    /* CZCIONKA/
+    font-family: "Oswald";
 }
-/* header */
+/* header bezposrednie dzieko body*/
 body > header{
     background-color: rgba(185, 61, 61, 0.793);
     border: 15xp solid rgba(185, 61, 61, 0.793);
     text-align: center;
-
 }
 
 /* GłÓWNA NAWIGACJA */
+nav{
+    position: sticky;
+    top: auto;
+}
+
 nav ul {
-    border:15xp red;
+    border:15xp blue;
     border-top: none;
     /* punktowanie list */
     list-style: type:none;
     padding:0;
     margin:0;
-    /* DIS FLEX */
-}
+    /* DISPLAY FLEX */  
+
+    display:flex;
+    justify-content: space-evenly;
+
+    /*
