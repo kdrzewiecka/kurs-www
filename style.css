@@ -8,6 +8,11 @@ selector{
     box-sizing: border-box;
 }
 
+ html{
+     /* ładne przesuwanie */
+     scroll-behavior: smooth;
+ }
+
 body{
     background-color: rgb(122, 96, 77);
     margin:0;
@@ -18,7 +23,7 @@ body{
 
 
 /* header bezposrednie dzieko body*/
- #root > header{
+ body > header{
     background-color: rgba(185, 61, 61, 0.793);
     border: 15xp 15px solid rgba(185, 61, 61, 0.793);
     text-align: center;
