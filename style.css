@@ -102,6 +102,11 @@ nav ul li a{
     color: #fff;
 }
 
+nav ul a{
+    text-decoration: #000;
+    color: blue;
+}
+
 /* POPUP COOKIES */
 .cookies{
     border: 5px solid rgb(98, 39, 39);
@@ -131,9 +136,24 @@ nav ul li a{
            /*         prawo   lewo */
     }
 
-    img.{
+    img{
         max-width: 100%;
         border-radius: 10%;
+    }
+
+    @media (min-width:768px){
+        main > .headerText,
+        main > article,
+        #contact{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    /*MAIN ARTICLE (TECHNOLOGIE) */
+    .tableField{
+
     }
 
     /* KONTAKT*/
@@ -149,8 +169,8 @@ nav ul li a{
         align-items: center;
 
     }
-  #contact form input,
-  #contact form textarea{
+  #contacts form input,
+  #contacts form textarea{
       background-color: red;
       width:80%;
       padding:.5rem;
@@ -163,5 +183,7 @@ nav ul li a{
 
  #contact form button{
      padding:.2rem 1rem;
-     border-radius:
+     border-radius:1px;
+          
  }
+
