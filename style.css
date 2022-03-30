@@ -20,7 +20,7 @@ body{
 /* header bezposrednie dzieko body*/
  #root > header{
     background-color: rgba(185, 61, 61, 0.793);
-    border: 15xp solid rgba(185, 61, 61, 0.793);
+    border: 15xp 15px solid rgba(185, 61, 61, 0.793);
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ nav ul {
     border:15xp blue;
     border-top: none;
     /* punktowanie list */
-    list-style: type:none;
+    list-style-type: none;
     padding:0;
     margin:0;
     /* DISPLAY FLEX */  
@@ -128,5 +128,5 @@ nav ul li a{
 
     img.{
         max-width: 100%;
-        border: radius 10%;
+        border-radius: 10%;
     }
