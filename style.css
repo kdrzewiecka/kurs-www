@@ -149,6 +149,11 @@ nav ul a{
             align-items: center;
             justify-content: center;
         }
+        main > .headerText,
+        main > article,
+        #contact >* {
+            flex: 1;
+        }
     }
 
     /*MAIN ARTICLE (TECHNOLOGIE) */
