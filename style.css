@@ -14,7 +14,7 @@ selector{
  }
 
 body{
-    background-color: rgb(122, 96, 77);
+    background-color:rgb(122, 96, 77);
     margin:0;
 }
 
@@ -36,7 +36,7 @@ nav{
 }
 
 nav ul {
-    border:15xp blue;
+    border:15px: blue;
     border-top: none;
     /* punktowanie list */
     list-style-type: none;
