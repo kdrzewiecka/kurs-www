@@ -149,3 +149,19 @@ nav ul li a{
         align-items: center;
 
     }
+  #contact form input,
+  #contact form textarea{
+      background-color: red;
+      width:80%;
+      padding:.5rem;
+      outline: 0;
+      margin-bottom:.5rem;
+      border: 5px solid red;
+      border-radius:6px;
+      font-family: inherit;
+ }
+
+ #contact form button{
+     padding:.2rem 1rem;
+     border-radius:
+ }
