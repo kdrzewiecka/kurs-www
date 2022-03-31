@@ -157,11 +157,8 @@ nav ul a{
     }
 
     /*MAIN ARTICLE (TECHNOLOGIE) */
-    .tableField{
-
-    }
-
-    /* KONTAKT*/
+  
+ /* KONTAKT*/
     #contact{
         border: 2px dashed red;
         padding:0 2em;
@@ -192,3 +189,19 @@ nav ul a{
           
  }
 
+ /* Karuzela*/
+
+  .corousel{
+      border: 2px dashed red;
+      display: flex;
+  }
+
+  /*wszystkie elementy*/
+
+  .cItem{
+      border: 2px dashed blue;
+      flex: 1;
+      padding:0 .5em;
+  }
+
+   

@@ -1,1 +1,1 @@
-console.log(document.querySelector("#projects"))
+console.log(document.querySelector("#projects .cItem"))
