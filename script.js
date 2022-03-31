@@ -9,13 +9,13 @@ const string = "asd";
 const project = {
     name : "Projekt 1",
     date : "24.11.2018",
-    id = 1,
+    id : 1,
     child : {
         name: "ChlildProject"
     }
-}
+  }
 console.log(project)
-//console.log("Project o nazwie"+project.name)
+//console.log("Project o nazwie"+project.name
 //+ "został stworzony" project.date )
 
 //console.log(console)
