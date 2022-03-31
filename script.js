@@ -2,8 +2,8 @@
 const z = 5;
 // ZMIENNA (może sie zmieniać)
 let x = 7;
-// STRING ( ciag znaków -zawsze cudzysłowiu)
-const string = "asd"
+// STRING ( ciag znaków ) -zawsze cudzysłowiu !
+const string = "asd";
 
 // OBIEKTY 
 const project = {
@@ -14,10 +14,11 @@ const project = {
         name: "ChlildProject"
     }
 }
+console.log(project)
 //console.log("Project o nazwie"+project.name)
-//+ "został stworzony" project.date
+//+ "został stworzony" project.date )
 
-console.log(console)
+//console.log(console)
+//TABLICE (ARRAYS)
 
-//TABLICE
 //const fibArray =
