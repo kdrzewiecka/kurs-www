@@ -6,12 +6,12 @@ let x = 7;
 const string = "asd"
 
 // OBIEKTY 
-const project ={
+const project = {
     name : "Projekt 1",
-    date : "24.11.20018"
+    date : "24.11.2018"
 }
 
 
 
-console.log("Project o nazwie"+project.name)
-+ "został stworzony" project.date
+//console.log("Project o nazwie"+project.name)
+//+ "został stworzony" project.date
